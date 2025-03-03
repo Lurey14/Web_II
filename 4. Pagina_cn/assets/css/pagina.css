@@ -1,0 +1,61 @@
+:root {
+    --color-1: #a7848b;
+    --color-2: #b88f93;
+    --color-3: #f5d5c6;
+    --color-4: #f9efd4;
+	--color-5: #b8cabe;
+
+    --fuente-1: 'Krona One', sans-serif;
+    --fuente-2: 'Montserrat', sans-serif;
+}
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-2);
+    text-align: center;
+    padding: 6rem 2rem;
+    background-image: url('assets/img/port1.jpg');
+}
+.pagina__titulo{
+    font-family: var(--fuente-1);
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(5, 1, 0, 1);
+}
+.pagina__desc{
+    font-family: var(--fuente-2);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto 2.5rem;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.pagina__boton{
+    font-family: var(--fuente-2);
+    text-align: center;
+    width: 50%;
+    border: 3px solid var(--color-3);
+    display: inline-block;
+    background: var(--color-3);
+    color: var(--color-1);
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+@media screen and (min-width:50px){
+    .pagina{
+        background-image: url('../img/port1.jpg');
+        background-size: cover;
+        padding-top: 8rem;
+    }
+}
+.pagina__boton:hover{
+    background: var(--color-4);
+}
