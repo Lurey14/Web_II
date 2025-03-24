@@ -1,0 +1,99 @@
+:root {
+    --color-1: #a7848b;
+    --color-2: #b88f93;
+    --color-3: #f5d5c6;
+    --color-4: #f9efd4;
+	--color-5: #b8cabe;
+
+    --fuente-1: 'Krona One', sans-serif;
+    --fuente-2: 'Montserrat', sans-serif;
+}
+.contacto{
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: var(--color-5);
+}
+.contacto__titulo{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-4);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--fuente-1);
+}
+.contacto__contenido{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.contacto__descripcion{
+    font-size: 1rem;
+    font-family: var(--fuente-2);
+    margin-bottom: 1rem;
+    color: black;
+}
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--fuente-1);
+}
+.contacto__input, .contacto__input2, .contacto__textarea{
+    width: 90%;
+    padding: 0.8rem;
+    border: 2px solid var(--color-2);
+    border-radius: 5px;
+}
+.contacto__textarea{
+    height: 120px;
+    font-family: var(--fuente-1);
+    color: black;
+}
+.contacto__boton{
+    background-color: var(--color-1);
+    color: black;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 95%;
+}
+.contacto__boton:hover{
+    background-color: var(--color-3);
+}
+
+.datosContacto {
+    width: auto;
+    display: flex;
+    gap: 20px; /* Espacio entre la tabla y las cards */
+    font-family: var(--fuente-2);
+    background-color: var(--color-5);
+}
+.tablaDatos {
+    flex: 2; /* La tabla ocupa más espacio */
+    border-radius: 25px;
+    padding: 25px;
+}
+.tablaDatos h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: var(--color-4);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--fuente-1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-1);
+}
+table th {
+    background-color: var(--color-4);
+    font-weight: bold;
+}

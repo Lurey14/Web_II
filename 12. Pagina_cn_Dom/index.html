@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link rel="stylesheet" href="assets/css/pagina.css">
+    <link rel="stylesheet" href="assets/css/elemento.css">
+    <link rel="stylesheet" href="assets/css/mensaje.css">
+    <link rel="stylesheet" href="assets/css/producto.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <header class="head">
+        <img class="head__logo" src="assets/img/logo.png" alt="logo">
+        <nav class="head__nav">
+            <ul>
+                <li class="head__link"><a href="#">Inicio</a></li>
+                <li class="head__link"><a href="#">Portada</a></li>
+                <li class="head__link"><a href="#">Elementos</a></li>
+                <li class="head__link"><a href="#">Productos</a></li>
+                <li class="head__link"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pagina">
+            <h1 class="pagina__titulo">Cartoon Netwoork</h1>
+            <p class="pagina__desc">Descubre Cartoon Netwoork</p>
+            <a class="pagina__boton" href="https://www.max.com/bo/es/channel/cartoon-network">Cartoon Netwoork</a>
+        </section>
+
+        <section class="elemento">
+            <h2 class="elemento__titulo">Nuestros Elementos</h2>
+            <div class="elemento__contenedor">
+                <div class="elemento__item">
+                    <a href="#">
+                        <figure class="elemento__figura">
+                            <img class="elemento__figura--imagen" src="assets/img/pord4.jpg" alt="Imagen del producto 1">
+                            <figcaption class="elemento__figura--texto">Producto 1</figcaption>
+                        </figure>
+                    </a>
+                    <a class="elemento__boton" href="#">Más información</a>
+                </div>
+                <div class="elemento__item">
+                    <a href="#">
+                        <figure class="elemento__figura">
+                            <img class="elemento__figura--imagen" src="assets/img/prod1.jpg" alt="Imagen del producto 2">
+                            <figcaption class="elemento__figura--texto">Producto 2</figcaption>
+                        </figure>
+                    </a>
+                    <a class="elemento__boton" href="#">Más información</a>
+                </div>
+                <div class="elemento__item">
+                    <a href="#">
+                        <figure class="elemento__figura">
+                            <img class="elemento__figura--imagen" src="assets/img/prod3.jpg" alt="Imagen del producto 3">
+                            <figcaption class="elemento__figura--texto">Producto 3</figcaption>
+                        </figure>
+                    </a>
+                    <a class="elemento__boton" href="#">Más información</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mensaje">
+            <ul class="mensaje__lista">
+                <li class="mensaje__item">
+                    <div class="mensaje__logo" style="background-image: url('assets/img/pord4.jpg');"></div>
+                    <h2 class="mensaje__item__titulo">Juguetes</h2>
+                    <p class="mensaje__item__texto">Compra tus juguetes preferidos</p>
+                </li>
+                <li class="mensaje__item">
+                    <div class="mensaje__logo" style="background-image: url('assets/img/port1.jpg');"></div>
+                    <h2 class="mensaje__item__titulo">Cartoon Netwoork</h2>
+                    <p class="mensaje__item__texto">Conoce mas de Cartoon Netwoork</p>
+                </li>
+                <li class="mensaje__item">
+                    <div class="mensaje__logo" style="background-image: url('assets/img/logo.jpg');"></div>
+                    <h2 class="mensaje__item__titulo">Pagina Principal</h2>
+                    <p class="mensaje__item__texto">Visita la pagina principal</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="nosotros">
+            <div class="nosotros__conteiner">
+                <div class="nosotros__contenido">
+                    <h2 class="nosotros__titulo">Sobre Nosotros</h2>
+                    <p class="nosotros__texto">Visita nuestra pagina y compartela para que mas personas conozcan a Cartoon Netwoork recordemos nuestra infancia</p>
+                </div>
+            </div>
+            <img class="nosotros__imagen" src="assets/img/perfil1.jpg" alt="img">
+        </section>
+
+        <section class="producto">
+            <h2 class="producto__titulo">Productos</h2>
+            <ul class="producto__lista">
+                <li class="card">
+                    <img src="assets/img/prod2.jpg" alt="Producto 1" class="card__imagen">
+                    <h3 class="card__titulo">Producto 1</h3>
+                    <article class="card__contenido">
+                        <p class="card__precio">20 Bs.</p>
+                        <p class="card__desc">Juguete 1</p>
+                        <a class="card__boton" href="#">Comprar</a>
+                    </article>
+                </li>
+                <li class="card">
+                    <img src="assets/img/pord4.jpg" alt="Producto 2" class="card__imagen">
+                    <h3 class="card__titulo">Producto 2</h3>
+                    <article class="card__contenido">
+                        <p class="card__precio">50 Bs.</p>
+                        <p class="card__desc">Juguete 2</p>
+                        <a class="card__boton" href="#">Comprar</a>
+                    </article>
+                </li>
+                <li class="card">
+                    <img src="assets/img/prod3.jpg" alt="Producto 3" class="card__imagen">
+                    <h3 class="card__titulo">Producto 3</h3>
+                    <article class="card__contenido">
+                        <p class="card__precio">30 Bs.</p>
+                        <p class="card__desc">Peluche 1</p>
+                        <a class="card__boton" href="#">Comprar</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="contacto">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <div class="contacto__contenido">
+                <p class="contacto__descripcion">Contactanos para que descubras mas de Cartoon Netwoork</p>
+                <form class="contacto__form">
+                    <input type="text" name="nombre" class="contacto__input" placeholder="Tu Nombre" required>
+                    <input type="email" name="correo" class="contacto__input2" placeholder="Tu Correo" required>
+                    <textarea name="mensaje" class="contacto__textarea" placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit" class="contacto__boton">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="datosContacto">
+            <div class="tablaDatos">
+                <h2>Mensajes enviados</h2>
+                <table id="taskTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Mensaje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Las filas se agregarán dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <img class="footer__logo" src="assets/img/logo.png" alt="Logo de la empresa">
+            <nav class="footer__nav">
+                <ul class="footer__lista">
+                    <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Portada</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Elementos</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Productos</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

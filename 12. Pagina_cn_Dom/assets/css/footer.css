@@ -1,0 +1,51 @@
+:root {
+    --color-1: #a7848b;
+    --color-2: #b88f93;
+    --color-3: #f5d5c6;
+    --color-4: #f9efd4;
+	--color-5: #b8cabe;
+
+    --fuente-1: 'Krona One', sans-serif;
+    --fuente-2: 'Montserrat', sans-serif;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: var(--fuente-1);
+    text-transform: uppercase;
+}
+.footer__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.footer__logo{
+    width: 120px;
+    height: auto;
+}
+.footer__nav{
+    margin-top: 1rem;
+}
+.footer__lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__item{
+    display: inline-block;
+}
+.footer__link{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.footer__link:hover{
+    color: var(--color-2);
+}

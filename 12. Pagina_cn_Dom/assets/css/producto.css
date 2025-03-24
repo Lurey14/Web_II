@@ -1,0 +1,71 @@
+:root {
+    --color-1: #a7848b;
+    --color-2: #b88f93;
+    --color-3: #f5d5c6;
+    --color-4: #f9efd4;
+	--color-5: #b8cabe;
+
+    --fuente-1: 'Krona One', sans-serif;
+    --fuente-2: 'Montserrat', sans-serif;
+}
+.producto{
+    padding: 3rem 1rem;
+    text-align: center;
+    font-family: var(--fuente-1);
+    background-color: var(--color-3);
+}
+.producto__titulo{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.producto__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.card{
+    max-width: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-5);
+}
+.card__imagen{
+    width: 100%;
+    border-radius: 10px;
+}
+.card__titulo{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    color: var(--color-2);
+}
+.card__precio{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-4);
+}
+.card__desc{
+    font-size: 0.9rem;
+    color: var(--color-4);
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.card__boton{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.card__boton:hover{
+    background-color: var(--color-3);
+    color: black;
+}
