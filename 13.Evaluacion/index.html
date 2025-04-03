@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluación DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .task { padding: 10px; margin: 5px; border: 1px solid #B2B2B2; }
+        .relleno { background-color: #B2B2B2; }
+        .tachado { text-decoration: line-through; color: #B2B2B2; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2 class="titulo">Lista de Tareas</h2>
+        <form class="agregar" data-form>
+            <input name="task" type="text" id="newItem" autocomplete="off" placeholder="Nueva tarea" 
+            data-input
+            required>
+            <button type="submit" id="addBtn" data-buton>Agregar</button>
+        </form>
+        <h3 class="titulo">Lista</h3>
+        <div class="items">
+            <ul id="taskList" data-task>
+                <li class="item">Tarea de ejemplo 1</li>
+                <li class="item">Tarea de ejemplo 2</li>
+            </ul>
+        </div>
+        <div id="controls">
+            <button id="toggleBtn">Tachar Último</button>
+            <button id="countBtn">Contar Items</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
