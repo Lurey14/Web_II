@@ -1,0 +1,28 @@
+{
+  "perfil": [
+    {
+      "nombre": "fulanito",
+      "email": "fulanito@gmail.com",
+      "id": "1"
+    },
+    {
+      "id": "b73eeea6-6489-4739-8912-394a32891011",
+      "nombre": "noe",
+      "email": "noemy.nmg@gmail.com"
+    }
+  ],
+  "producto": [
+    {
+      "nombre": "croquetas",
+      "precio": "15",
+      "descripcion": "comida",
+      "id": "1"
+    },
+    {
+      "nombre": "croquetas premium",
+      "precio": "30",
+      "descripcion": "comida",
+      "id": "2"
+    }
+  ]
+}
