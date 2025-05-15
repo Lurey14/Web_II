@@ -1,0 +1,19 @@
+{
+  "perfil": [
+    {
+      "nombre": "fulanito",
+      "email": "fulanito@gmail.com",
+      "id": "6dd9c7a3-cdc0-4d83-9e2d-57989841b0cf"
+    },
+    {
+      "id": "309428f1-7add-4535-a203-45eb5c5922fd",
+      "nombre": "noe",
+      "email": "fulanito@gmail.com"
+    },
+    {
+      "id": "b4a19dbb-3ec3-4f94-87ba-06d36d506349",
+      "nombre": "dos",
+      "email": "fulanito@gmail.com"
+    }
+  ]
+}
