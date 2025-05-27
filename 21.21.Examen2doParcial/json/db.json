@@ -1,0 +1,76 @@
+{
+    "sala": [
+        {
+        "id": "SL001",
+        "nombre": "Sala 1",
+        "cantidad": 100
+        },
+        {
+        "id": "SL002",
+        "nombre": "Sala VIP",
+        "cantidad": 50
+        },
+        {
+        "id": "d0868d0e-5594-4ada-9c72-21a0ec84ff87",
+        "nombre": "Sala 3",
+        "cantidad": "200"
+        }
+    ],
+    "cliente": [
+        {
+        "id": "CL001",
+        "nombre": "Napoleon Perez",
+        "email": "napoleon@email.com"
+        },
+        {
+        "id": "CL002",
+        "nombre": "Lucerys Velaryon",
+        "email": "lucerys@email.com"
+        },
+        {
+        "nombre": "Jacaerys Velaryon",
+        "email": "jacaerys@gmail.com",
+        "id": "d7387fe7-d133-4e8f-834d-084ac0a51b8e"
+        }
+    ],
+    "boleto": [
+        {
+        "id": "BT001",
+        "precio": 50,
+        "cliente": "CL001"
+        },
+        {
+        "id": "BT002",
+        "precio": 80,
+        "cliente": "CL002"
+        },
+        {
+        "precio": "130",
+        "cliente": "CL001",
+        "id": "75e42c0f-f95d-4e9d-b40f-dfcfa937457d"
+        }
+    ],
+    "pelicula": [
+        {
+        "id": "PL001",
+        "horario": "18:00",
+        "nombre": "Avengers",
+        "sala": "SL001",
+        "boleto": "BT001"
+        },
+        {
+        "id": "PL002",
+        "horario": "20:00",
+        "nombre": "Toy Story",
+        "sala": "SL002",
+        "boleto": "BT002"
+        },
+        {
+        "horario": "13:30",
+        "nombre": "El Hobbit",
+        "sala": "BT001",
+        "boleto": "SL001",
+        "id": "2776ebf7-ddeb-43ad-aba7-2af2648dc129"
+        }
+    ]
+}
